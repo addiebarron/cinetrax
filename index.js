@@ -25,9 +25,6 @@ function handleTasteDiveResponse (result) {
 		When Frank falls ill, Rod devises his most outrageous stunt yet to raise money for Frank's operation -- 
 		and then Rod will kick Frank's butt.</h4>`).prop('hidden', false);
 	}
-	else if (STORE.searchTerm === undefined) { 
-		$('.js-results').html(`<h3>Please input a valid search!</h3>`).prop('hidden', false);
-	}
 	else { 
 		var result = results[index];
 		getDataFromTMDb(result.Name);
@@ -63,7 +60,7 @@ function handleMovieResponse (movieResponse) {
 		$('.js-results').html(`<h3>Result for: ${STORE.searchTerm}</h3>
 		<h2>${title}</h2>
 		<img src="https://image.tmdb.org/t/p/w300${poster}" alt="Poster for ${title}" class="poster">
-		<h4>${overview}</h4><p>If you'd like a different recommendation, try your search again!`).prop('hidden', false);
+		<h4>${overview}</h4><p>Running your search again may offer a different recommendation!`).prop('hidden', false);
 	};
 }
 

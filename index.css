@@ -3,24 +3,33 @@
 }
 
 body { 
-	color: #05326b;
-	font-family: 'Open Sans', sans-serif;
-	background-image: url('http://i65.tinypic.com/6h2lc8.png');
+	color: #5B3758;
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url('http://i65.tinypic.com/246q51g.png');
 	background-repeat: repeat;
 	margin: 0px;
 }
 
 #logo {
 	font-family: 'Arvo', serif;
-	font-size: 24px;
+	font-size: 20px;
+	color: #5B3758;
+	padding: 14px 16px;
+	font-weight: bold;
 }
 
 #navbar ul { 
 	list-style-type: none;
 	margin: 0px -10px 0px -10px;
-	padding: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+	padding-right: 30px;
 	overflow: hidden;
-	background-color: #415d91;
+	/* background-color: #415d91; */ 
+	text-transform: uppercase;
+	font-family: 'Arvo', serif;
+	font-size: 20px;
 }
 
 #navbar li { 
@@ -29,14 +38,14 @@ body {
 
 #navbar li a, .dropbutton {
 	display: inline-block;
-	color: #FFFFFF;
+	color: #C65B7C;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 }
 
 #navbar li a:hover, .dropdown:hover .dropbutton {
-	background-color: #05326b;
+	color: #5B3758; 
 }
 
 #navbar li.dropdown {
@@ -51,7 +60,6 @@ body {
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px;
 	z-index: 1;
-	background-color: #05326b;
 }
 
 .dropdown-content a {
@@ -63,7 +71,7 @@ body {
 }
 
 .dropdown-content a:hover {
-	background-color: #FFFFFF;
+	/* background-color: #FFFFFF; */ 
 }
 
 .dropdown:hover .dropdown-content {
@@ -85,11 +93,11 @@ main {
 h2 {
 	display: inline-block;
 	font-size: 36px;
-	color: #415d91;
+	color: #C65B7C;
 	font-family: 'Arvo', serif;
 	text-align: center;
 	padding: 8px;
-	border: 1px solid #05326b;
+	border: 1px solid #5B3758;
 	border-radius: 3px;
 	width: 530px;
 	margin: auto;
@@ -112,7 +120,7 @@ input[type=text] {
 	font-size: 16px;
 	font-weight: 500;
 	font-family: 'Helvetica Neue', Helvetica, sans-serif;
-	border: 1px solid #05326b;
+	border: 1px solid #83B692;
 	border-radius: 3px;
 	padding-left: 10px;
 	height: 30px;
@@ -125,7 +133,7 @@ button[type=submit] {
 	margin-top: 10px;
 	margin-bottom: 20px;
 	border-radius: 3px;
-	border: 1px solid #05326b;
+	border: 1px solid #83B692;
 	margin-left: 5px;
 	display: inline-block; 
 	background-color: #FFFFFF;
@@ -166,7 +174,7 @@ button[type=submit] {
 	margin-top: 30px;
 	color: #FFFFFF;
 	text-align: center;
-	background-color: #05326b;
+	background-color: rgba(198, 91, 124, 0.6);  
 	width: 100%;
 	padding: 10px;
 	font-size: 12px;

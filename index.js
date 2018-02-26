@@ -1,6 +1,7 @@
 const STORE = { 
 	searchTerm: null
 };
+// creates global variable for search term to be accessed throughout code
 
 function getDataFromTasteDive () {
 	const tdSearchUrl = 'https://tastedive.com/api/similar?callback=?';
@@ -15,6 +16,7 @@ function getDataFromTasteDive () {
 function handleTasteDiveResponse (result) {
 	let results = result.Similar.Results;
 	let index = Math.floor(Math.random() * results.length);
+	// creating a random value for the index
 	if (results.length < 1) {
 		$('.js-results').html(`<h3>We couldn't find any results for search: ${STORE.searchTerm}!</h3>
 		<h4>Feel free to try this instead:</h4>
@@ -71,6 +73,7 @@ function appSetUp() {
 		let query = queryTarget.val();
 		STORE.searchTerm = query;  
 		queryTarget.val(""); 
+		// resets the search 
 		getDataFromTasteDive();
 	});
 }

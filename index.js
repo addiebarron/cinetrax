@@ -76,6 +76,10 @@ function appSetUp() {
 		// resets the search 
 		getDataFromTasteDive();
 	});
+	$('.dropbutton').on('click', event => {
+		event.preventDefault(); 
+		$('.dropdown-content').toggle();
+	});
 }
 
 $(appSetUp); 

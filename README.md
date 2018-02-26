@@ -8,11 +8,11 @@ Screenshots
 
 Landing page: 
 
-![Cinetrax landing page](cinetrax/landingpagescreen.png?raw=true "Cinetrax landing page")
+![Cinetrax landing page](https://github.com/strewburry/cinetrax/blob/master/landingpagescreen.png?raw=true "Cinetrax landing page")
 
 Result screen: 
 
-![Cinetrax result screen](cinetrax/resultscreen.png?raw=true "Cinetrax result screen")
+![Cinetrax result screen](https://github.com/strewburry/cinetrax/blob/master/resultscreen.png?raw=true "Cinetrax result screen")
 
 
 Technologies

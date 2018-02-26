@@ -6,6 +6,14 @@ A free service that recommends films based on user input. Users input the name o
 Screenshots
 ------------
 
+Landing page: 
+
+![Cinetrax landing page](cinetrax/landingpagescreen.png?raw=true "Cinetrax landing page")
+
+Result screen: 
+
+![Cinetrax result screen](cinetrax/resultscreen.png?raw=true "Cinetrax result screen")
+
 
 Technologies
 ------------
